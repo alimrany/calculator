@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(255, 255, 255) ;
+    }
+    .container{
+    width: 370px;
+    height: 600px;
+    background-color: rgb(234, 239, 251);
+    border-radius: 30px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow:  5px 5px 10px #000000,
+                 -5px -5px 10px #001142;
+    }
+    .outcome {
+    width: 100%;
+    height: 65px;
+    border-radius: 20px;
+    background: #d8e0f3;
+    box-shadow:  5px 5px 10px #02195e,
+                 -5px -5px 10px rgb(167, 103, 103);
+    margin-left: -5px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    overflow-x:scroll;
+}
+.outcome:hover{
+    background-color: #b8c5ee;
+    /* color: #d8e0f3; */
+}
+.btn{
+    width: 63px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 2px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 5px 5px 10px #02195e,
+                 -5px -5px 10px rgb(167, 103, 103);
+    }
+    .btn:hover{
+        background-color: #b8c5ee;
+    }
+    td{
+        padding-bottom: 15px;
+    }
+    .brands{
+        text-align: right;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: lighter;
+        margin-right: 100px;
+        color: #5e5959;
+    }
